@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-	char qt[59] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char qt[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	fprintf(stderr, "%s\n", qt);
+	write(1, qt, 59);
 	return (1);
 }
