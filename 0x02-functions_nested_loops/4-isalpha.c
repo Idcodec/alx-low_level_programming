@@ -1,4 +1,4 @@
-#include "ID.h"
+#include "main.h"
 
 /**
 * _isalpha - checks if a character is an alphabet
