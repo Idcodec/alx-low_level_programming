@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* more_numbers - prints numbers 0 to 9, ten times
+* print_most_numbers  - prints numbers 0 to 9, ten times
 * Return: returns nothing
 */
-void more_numbers(void)
+void print_most__numbers(void)
 {
 int i;
 
