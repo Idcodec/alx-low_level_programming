@@ -9,7 +9,7 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	char *result = haystack, *fneedle = needle;
+	char *r = haystack, *f = needle;
 
 	while (*haystack)
 	{
@@ -22,11 +22,11 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (!*needle)
 		{
-			return (result);
+			return (r);
 		}
-		needle = fneedle;
-		result++;
-		haystack = result;
+		needle = f;
+		r++;
+		haystack = r;
 	}
 	return (0);
 }
