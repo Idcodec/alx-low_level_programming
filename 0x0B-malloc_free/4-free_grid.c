@@ -7,16 +7,15 @@
 * @height: the number of rows of the 2D array
 * Return: returns nothing
 */
+
 void free_grid(int **grid, int height)
 {
-	int i;
+	height--;
 
-	if (grid == NULL || height <= 0)
-		return;
-
-	for (i = 0; i < height; i++)
+	while (height >= 0)
 	{
-		free(grid[i]);
+		free(*(grid + height));
+		height--;
 	}
 	free(grid);
 }
