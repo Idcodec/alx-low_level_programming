@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdlib.h"
 
 /**
 * alloc_grid - a function that allocates memory for
