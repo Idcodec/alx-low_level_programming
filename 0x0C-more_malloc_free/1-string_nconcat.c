@@ -10,9 +10,9 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *s;
 	unsigned int i, j;
 	unsigned int len1 = 0, len2 = 0, len = 0;
+	char *s;
 
 	if (s1 != NULL)
 		for (i = 0; s1[i] != '\0'; i++)
